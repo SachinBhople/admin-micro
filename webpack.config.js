@@ -9,7 +9,8 @@ const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:8089/",
+    // publicPath: "http://localhost:8089/",
+    publicPath: "https://admin-micro.vercel.app/",
   },
 
   resolve: {
